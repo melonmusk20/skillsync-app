@@ -187,3 +187,40 @@ src/main/java/com/skillsync/
 ├── model/
 └── ResumeMatcherApplication.java
 ```
+# Local Development Setup 
+
+ Frontend 
+ ```bash
+npm install
+npm run dev
+```
+ Runs on:
+ ```Code
+http://localhost:5173
+```
+
+ Backend
+ ```bash
+mvn clean install
+mvn spring-boot:run
+```
+ Runs on:
+ ```Code
+http://localhost:8080
+```
+
+# 🧩 Production Considerations
+
+  • Stateless authentication
+
+  • Secure CORS configuration
+
+  • Environment variable isolation
+
+  • Render cold start handling
+
+  • AI markdown cleanup before UI render
+
+  • Cloud deployment automation via GitHub
+
+
