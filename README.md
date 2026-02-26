@@ -48,7 +48,7 @@ Backend (Render):
 
   •  Resume metadata stored in database
 
-  • Secured endpoint access
+  •  Secured endpoint access
 
  # 🎯 Match Score Engine 
    
@@ -113,6 +113,10 @@ Backend (Render):
   3. Token stored in localStorage
 
   4. Axios interceptor attaches:
+
+     ```js
+     Authorization: Bearer <token>
+     ```
 
 
 
