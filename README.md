@@ -1,5 +1,5 @@
 
-#  SkillSync – AI-Powered Resume Intelligence Platform
+# <img src="src/assets/icon.png" width="24" /> SkillSync – AI-Powered Resume Intelligence Platform
 
    Production-ready full-stack AI system for resume analysis, optimization, and       job match scoring.
 
