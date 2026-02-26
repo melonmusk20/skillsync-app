@@ -115,7 +115,9 @@ Backend (Render):
   4. Axios interceptor attaches:
 
      ```js
+     <code>
      Authorization: Bearer <token>
+     <code>
      ```
 
 
