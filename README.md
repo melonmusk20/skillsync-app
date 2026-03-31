@@ -1,4 +1,4 @@
-# 🚀 SkillSync – AI Resume Intelligence Platform
+# <img src="src/assets/icon.png" width="25" /> SkillSync SkillSync – AI Resume Intelligence Platform
 
 > A full-stack AI-powered web application to analyze, score, and optimize resumes based on job descriptions.
 
@@ -8,7 +8,7 @@
 
 - 🔗 Frontend (Vercel): https://skillsync-app-coral.vercel.app  
 - ⚙ Backend (Render): https://skillsync-ai-zx81.onrender.com  
-
+- ⚙ Backend (Repo): https://github.com/melonmusk20/skillsync-backend.git
 ---
 
 ## ✨ Features
