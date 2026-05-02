@@ -41,14 +41,18 @@ export default function Register() {
       setTimeout(() => nav("/login"), 1200);
 
     } catch (err) {
-  const data = err?.response?.data;
-  
+      const data = err?.response?.data;
 
-    setMsg(Object.values(data).join(" | "));
-  } else {
-    setMsg(data?.message || "Registration failed.");
-  }
-}
+      if (data && typeof data === "object") {
+        setMsg(Object.values(data).join(" | "));
+      } else {
+        setMsg(data?.message || "Registration failed.");
+      }
+
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="container fade-in">
