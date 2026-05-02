@@ -34,7 +34,7 @@ export async function optimizeResume(resumeId, jobDescription){
 }
 
 export async function loginCustomer(payload){
-    const res = await api.post("/customers/login", payload);
+    const res = await api.post("/auth/login", payload);
     return res.data;
 }
 
