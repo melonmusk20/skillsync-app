@@ -41,14 +41,14 @@ export default function Register() {
       setTimeout(() => nav("/login"), 1200);
 
     } catch (err) {
-      setMsg(
-        err?.response?.data?.message ||
-        "Registration failed."
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  const data = err?.response?.data;
+  
+
+    setMsg(Object.values(data).join(" | "));
+  } else {
+    setMsg(data?.message || "Registration failed.");
+  }
+}
 
   return (
     <div className="container fade-in">
